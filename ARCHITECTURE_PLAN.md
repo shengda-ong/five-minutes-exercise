@@ -304,7 +304,67 @@ This mental model should help you explain the system during interviews or when y
 
 ---
 
-## 12. Conclusion
+## 12. Project Packaging & Repository Hygiene (for Future Reference)
+
+To ensure the backend behaves correctly during testing and development, and to keep the repository clean, these rules apply:
+
+### 12.1 Python Package Structure Rules
+
+* The **project root** for the backend is the `backend/` folder.
+* The `backend/` folder should **NOT** contain an `__init__.py` file.
+  This ensures `backend/` behaves as a project root and avoids module import conflicts during testing.
+* Each Django app folder (e.g., `core/`, `exercises/`, `plans/`) **must** contain an `__init__.py` file so Python recognizes them as importable modules.
+* When running tests from inside `backend/`, imports like:
+
+  ```python
+  from core.gemini_client import GeminiClient
+  ```
+
+  work reliably.
+
+### 12.2 .gitignore Practices
+
+The repository should ignore:
+
+* `__pycache__/` folders
+* Python bytecode (`*.pyc`)
+* Virtual environments (`.venv/`, `env/`)
+* Test caches (`.pytest_cache/`)
+* Environment variable files (`.env`, `backend/config/.env`)
+* IDE settings (`.vscode/`, `.idea/`)
+* Build artifacts (`dist/`, `build/`)
+* Coverage reports (`htmlcov/`, `.coverage`)
+
+A clean `.gitignore` keeps your commits focused and avoids accidentally exposing secrets or clutter.
+
+### 12.3 Test Execution Rules
+
+* Use `pytest` from inside the `backend/` folder:
+
+  ```bash
+  cd backend
+  pytest
+  ```
+* This ensures the correct module resolution path and avoids import errors.
+* Tests should import modules using absolute imports relative to `backend/`, e.g.:
+
+  ```python
+  from core.gemini_client import GeminiClient
+  ```
+
+### 12.4 Why These Rules Matter
+
+These packaging and hygiene rules:
+
+* Prevent confusing import errors
+* Ensure deterministic test behavior
+* Keep the repository clean and professional
+* Make it easy for others (and future you) to understand the structure
+* Follow standard Python and Django project conventions
+
+---
+
+## 13. Conclusion
 
 This architecture balances:
 
