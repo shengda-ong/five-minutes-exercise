@@ -1,3 +1,6 @@
+Django==6.0
 protobuf==6.33.1
 pytest==9.0.1
+pytest-django
 python-dotenv==1.2.1
+

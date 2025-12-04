@@ -1,0 +1,394 @@
+[
+  {
+    "model": "exercises.exercise",
+    "pk": "march_in_place",
+    "fields": {
+      "name": "March in Place",
+      "description": "Gentle marching to elevate heart rate.",
+      "muscle_groups": ["legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "side_step_touch",
+    "fields": {
+      "name": "Side Step Touch",
+      "description": "Step side to side, touching the floor lightly.",
+      "muscle_groups": ["legs", "glutes", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "standing_knee_lifts",
+    "fields": {
+      "name": "Standing Knee Lifts",
+      "description": "Lift knees alternately to hip height.",
+      "muscle_groups": ["core", "legs"],
+      "equipment_required": [],
+      "contraindications": ["hip"],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "shoulder_rolls",
+    "fields": {
+      "name": "Shoulder Rolls",
+      "description": "Roll shoulders forward and backward.",
+      "muscle_groups": ["shoulders", "upper_back"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "arm_circles_small",
+    "fields": {
+      "name": "Small Arm Circles",
+      "description": "Small controlled arm circles forward/backward.",
+      "muscle_groups": ["shoulders", "arms"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "step_reach",
+    "fields": {
+      "name": "Step and Reach",
+      "description": "Step gently to the side while reaching upward.",
+      "muscle_groups": ["full_body"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "toe_taps_forward",
+    "fields": {
+      "name": "Forward Toe Taps",
+      "description": "Tap alternating toes forward at a gentle pace.",
+      "muscle_groups": ["legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "heel_digs",
+    "fields": {
+      "name": "Heel Digs",
+      "description": "Step forward and place heel on ground with flexed foot.",
+      "muscle_groups": ["legs"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "standing_twist",
+    "fields": {
+      "name": "Standing Torso Twist",
+      "description": "Gentle rotational core movement.",
+      "muscle_groups": ["core"],
+      "equipment_required": [],
+      "contraindications": ["lower_back"],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "slow_punches",
+    "fields": {
+      "name": "Slow Air Punches",
+      "description": "Controlled forward punching motion without speed.",
+      "muscle_groups": ["arms", "shoulders", "core"],
+      "equipment_required": [],
+      "contraindications": ["shoulder"],
+      "estimated_calories_per_min": 3.5,
+      "intensity": "low"
+    }
+  },
+
+  {
+    "model": "exercises.exercise",
+    "pk": "standing_jacks",
+    "fields": {
+      "name": "Standing Jacks",
+      "description": "Low-impact jack without jumping.",
+      "muscle_groups": ["cardio", "legs"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "air_punches",
+    "fields": {
+      "name": "Air Punches",
+      "description": "Faster controlled punches.",
+      "muscle_groups": ["arms", "core", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "alternating_lunges_in_place",
+    "fields": {
+      "name": "Alternating Lunges in Place",
+      "description": "Step backward or forward into lunges.",
+      "muscle_groups": ["legs", "glutes"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "side_leg_lifts",
+    "fields": {
+      "name": "Side Leg Lifts",
+      "description": "Stand and lift each leg laterally.",
+      "muscle_groups": ["glutes", "outer_thigh"],
+      "equipment_required": [],
+      "contraindications": ["hip"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "knee_drives",
+    "fields": {
+      "name": "Knee Drives",
+      "description": "Drive knee upward with coordinated arm motion.",
+      "muscle_groups": ["core", "legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "butt_kicks",
+    "fields": {
+      "name": "Butt Kicks",
+      "description": "Pull heels toward glutes in alternating rhythm.",
+      "muscle_groups": ["hamstrings", "cardio"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "high_knee_march",
+    "fields": {
+      "name": "High Knee March",
+      "description": "Exaggerated marching with high knees.",
+      "muscle_groups": ["legs", "core", "cardio"],
+      "equipment_required": [],
+      "contraindications": ["hip"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "speed_tap_side",
+    "fields": {
+      "name": "Side Speed Taps",
+      "description": "Fast tapping motion side-to-side.",
+      "muscle_groups": ["legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "standing_crunch",
+    "fields": {
+      "name": "Standing Crunch",
+      "description": "Contract abs while bringing elbow to knee.",
+      "muscle_groups": ["core"],
+      "equipment_required": [],
+      "contraindications": ["lower_back"],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "forward_arm_swings",
+    "fields": {
+      "name": "Forward Arm Swings",
+      "description": "Swing arms forward rhythmically.",
+      "muscle_groups": ["arms", "shoulders", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 6.0,
+      "intensity": "medium"
+    }
+  },
+
+  {
+    "model": "exercises.exercise",
+    "pk": "jumping_jacks",
+    "fields": {
+      "name": "Jumping Jacks",
+      "description": "Classic full-body jumping jack.",
+      "muscle_groups": ["legs", "cardio", "arms"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "squat_jumps",
+    "fields": {
+      "name": "Squat Jumps",
+      "description": "Explosive squat movement.",
+      "muscle_groups": ["legs", "glutes"],
+      "equipment_required": [],
+      "contraindications": ["knee", "back"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "fast_knee_drives",
+    "fields": {
+      "name": "Fast Knee Drives",
+      "description": "Rapid knee drives for high cardio impact.",
+      "muscle_groups": ["core", "legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "skater_hops",
+    "fields": {
+      "name": "Skater Hops",
+      "description": "Side-to-side lateral hops.",
+      "muscle_groups": ["legs", "glutes", "cardio"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "running_in_place",
+    "fields": {
+      "name": "Running in Place",
+      "description": "Simulated running with arm drive.",
+      "muscle_groups": ["legs", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "punch_kick_combo",
+    "fields": {
+      "name": "Punch-Kick Combo",
+      "description": "Alternating punches and front kicks.",
+      "muscle_groups": ["arms", "legs", "core", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "high_knees_run",
+    "fields": {
+      "name": "High Knees Run",
+      "description": "Rapid high-knees running.",
+      "muscle_groups": ["legs", "core", "cardio"],
+      "equipment_required": [],
+      "contraindications": [],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "burpee_no_floor",
+    "fields": {
+      "name": "Burpee (No Floor Version)",
+      "description": "Burpee variant stopping before ground contact.",
+      "muscle_groups": ["full_body", "cardio"],
+      "equipment_required": [],
+      "contraindications": ["back"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "squat_pulse",
+    "fields": {
+      "name": "Squat Pulse",
+      "description": "Small squat pulses to build muscular burn.",
+      "muscle_groups": ["legs", "glutes"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": "jumping_kicks",
+    "fields": {
+      "name": "Jumping Front Kicks",
+      "description": "Jump lightly while extending front kicks.",
+      "muscle_groups": ["legs", "core", "cardio"],
+      "equipment_required": [],
+      "contraindications": ["knee"],
+      "estimated_calories_per_min": 10.0,
+      "intensity": "high"
+    }
+  }
+]

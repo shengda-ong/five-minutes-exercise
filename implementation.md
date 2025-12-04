@@ -26,7 +26,7 @@ This roadmap outlines the recommended order of implementation for **The 5 Minute
 
 3. **Design `Exercise` model in `exercises/models.py`**
 
-   * Fields: `id`, `name`, `description`, `muscle_groups`, `estimated_calories_per_min`, `impact_level`, `contraindications`, etc.
+   * Fields: `id`, `name`, `description`, `muscle_groups`, `estimated_calories_per_min`, `intensity`, `contraindications`, etc.
 
 4. **Implement `ExerciseRepository` in `exercises/repositories.py`**
 
